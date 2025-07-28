@@ -23,36 +23,36 @@
 
 @layer components {
   .minimal-glow {
-    box-shadow: 0 0 30px 0 rgba(255, 224, 102, 0.25);
+    box-shadow: 0 0 30px 0 rgba(40, 167, 69, 0.25);
   }
   
   .minimal-glow:hover {
-    box-shadow: 0 0 50px 0 rgba(255, 224, 102, 0.35);
+    box-shadow: 0 0 50px 0 rgba(40, 167, 69, 0.35);
   }
   
   .text-gradient {
-    background: linear-gradient(135deg, #c9a205 0%, #ffeb11 100%);
+    background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
 
   .glass-card {
-    background: #fffde7;
-    border: 1.5px solid #ffe066;
-    box-shadow: 0 2px 16px 0 rgba(255, 224, 102, 0.10);
+    background: #e8f5e8;
+    border: 1.5px solid #28a745;
+    box-shadow: 0 2px 16px 0 rgba(40, 167, 69, 0.10);
     backdrop-filter: blur(10px);
   }
 
   .minimal-button {
-    @apply bg-yellow-main hover:bg-yellow-dark text-text-primary font-semibold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 minimal-glow;
+    @apply bg-green-main hover:bg-green-dark text-white font-semibold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 minimal-glow;
   }
 
   .feature-card-minimal {
     @apply glass-card rounded-2xl p-8 transition-all duration-500 hover:scale-105;
-    border: 2px solid #ffe066;
-    background: #fffde7;
-    box-shadow: 0 0 24px 0 rgba(255, 224, 102, 0.18);
+    border: 2px solid #28a745;
+    background: #e8f5e8;
+    box-shadow: 0 0 24px 0 rgba(40, 167, 69, 0.18);
     position: relative;
     z-index: 1;
   }
