@@ -8,18 +8,19 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // Minimal, modern color palette
-        'bg-primary': '#0a0a0a',
-        'bg-secondary': '#111111',
-        'bg-card': 'rgba(255, 255, 255, 0.03)',
-        'text-primary': '#ffffff',
-        'text-secondary': '#000000',
-        'text-muted': '#000000',
-        'accent-primary': '#ffb6e9', // light pink
-        'accent-secondary': '#aeefff', // light blue
-        'accent-tertiary': '#fff', // white
-        'pink-main': '#ff6ec4', // main pink
-        'blue-main': '#6ecbff', // main blue
+        // Yellow wallet color palette
+        'bg-primary': '#fffbe6',
+        'bg-secondary': '#fff9c4',
+        'bg-card': '#fff59d',
+        'text-primary': '#222222',
+        'text-secondary': '#444444',
+        'text-muted': '#888888',
+        'accent-primary': '#ffe066', // main yellow
+        'accent-secondary': '#fffde7', // light yellow
+        'accent-tertiary': '#fffde7', // lighter yellow
+        'yellow-main': '#ffe066', // main yellow
+        'yellow-dark': '#ffd600', // dark yellow
+        'yellow-light': '#fffde7', // lightest yellow
         'white-main': '#ffffff',
       },
       fontFamily: {

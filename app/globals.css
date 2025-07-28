@@ -10,7 +10,7 @@
   }
   
   body {
-    @apply min-h-screen bg-wallet-bg text-gray-900;
+    @apply min-h-screen bg-bg-primary text-text-primary;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
       sans-serif;
@@ -23,36 +23,36 @@
 
 @layer components {
   .minimal-glow {
-    box-shadow: 0 0 30px rgba(99, 102, 241, 0.15);
+    box-shadow: 0 0 30px 0 rgba(255, 224, 102, 0.25);
   }
   
   .minimal-glow:hover {
-    box-shadow: 0 0 50px rgba(99, 102, 241, 0.25);
+    box-shadow: 0 0 50px 0 rgba(255, 224, 102, 0.35);
   }
   
   .text-gradient {
-    background: linear-gradient(135deg, #ed2cd0 0%, #95448e 50%, #da73de 100%);
+    background: linear-gradient(135deg, #c9a205 0%, #ffeb11 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
 
   .glass-card {
-    background: rgba(255, 255, 255, 0.03);
-    backdrop-filter: blur(20px);
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: #fffde7;
+    border: 1.5px solid #ffe066;
+    box-shadow: 0 2px 16px 0 rgba(255, 224, 102, 0.10);
+    backdrop-filter: blur(10px);
   }
 
   .minimal-button {
-    @apply bg-gradient-to-r from-pink-500 to-purple-600 hover:from-purple-600 hover:to-indigo-500 text-white font-semibold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 minimal-glow;
+    @apply bg-yellow-main hover:bg-yellow-dark text-text-primary font-semibold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 minimal-glow;
   }
 
   .feature-card-minimal {
-    @apply glass-card rounded-2xl p-8 transition-all duration-500 hover:scale-105 hover:bg-white/5;
-    border: 2px solid transparent;
-    background-image: linear-gradient(135deg, #fff 0%, #ffb6e9 40%, #aeefff 100%);
-    background-origin: border-box;
-    box-shadow: 0 0 24px 0 rgba(255, 110, 196, 0.25);
+    @apply glass-card rounded-2xl p-8 transition-all duration-500 hover:scale-105;
+    border: 2px solid #ffe066;
+    background: #fffde7;
+    box-shadow: 0 0 24px 0 rgba(255, 224, 102, 0.18);
     position: relative;
     z-index: 1;
   }
