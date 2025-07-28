@@ -19,9 +19,7 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body className={inter.className}>
-        <div className="min-h-screen bg-wallet-bg">
-          {children}
-        </div>
+        {children}
       </body>
     </html>
   )

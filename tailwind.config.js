@@ -13,20 +13,24 @@ module.exports = {
         'bg-secondary': '#111111',
         'bg-card': 'rgba(255, 255, 255, 0.03)',
         'text-primary': '#ffffff',
-        'text-secondary': '#a1a1aa',
-        'text-muted': '#71717a',
-        'accent-primary': '#6366f1',
-        'accent-secondary': '#8b5cf6',
-        'accent-tertiary': '#06b6d4',
+        'text-secondary': '#000000',
+        'text-muted': '#000000',
+        'accent-primary': '#ffb6e9', // light pink
+        'accent-secondary': '#aeefff', // light blue
+        'accent-tertiary': '#fff', // white
+        'pink-main': '#ff6ec4', // main pink
+        'blue-main': '#6ecbff', // main blue
+        'white-main': '#ffffff',
       },
       fontFamily: {
         'sans': ['Inter', 'system-ui', 'sans-serif'],
         'display': ['Poppins', 'system-ui', 'sans-serif'],
       },
       backgroundImage: {
-        'gradient-primary': 'linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%)',
-        'gradient-secondary': 'linear-gradient(135deg, #8b5cf6 0%, #06b6d4 100%)',
-        'gradient-tertiary': 'linear-gradient(135deg, #06b6d4 0%, #6366f1 100%)',
+        'gradient-primary': 'linear-gradient(135deg, #ffb6e9 0%, #ff6ec4 50%, #aeefff 100%)',
+        'gradient-secondary': 'linear-gradient(135deg, #aeefff 0%, #ffb6e9 100%)',
+        'gradient-tertiary': 'linear-gradient(135deg, #fff 0%, #ffb6e9 100%)',
+        'wallet-bg': 'linear-gradient(135deg, #fff 0%, #ffb6e9 40%, #aeefff 100%)',
       },
       animation: {
         'float': 'float 8s ease-in-out infinite',

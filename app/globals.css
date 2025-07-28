@@ -10,12 +10,10 @@
   }
   
   body {
-    background: #0a0a0a;
-    min-height: 100vh;
+    @apply min-h-screen bg-wallet-bg text-gray-900;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
       sans-serif;
-    color: #ffffff;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -33,7 +31,7 @@
   }
   
   .text-gradient {
-    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #06b6d4 100%);
+    background: linear-gradient(135deg, #ed2cd0 0%, #95448e 50%, #da73de 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -46,11 +44,17 @@
   }
 
   .minimal-button {
-    @apply bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-purple-600 hover:to-indigo-500 text-white font-semibold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 minimal-glow;
+    @apply bg-gradient-to-r from-pink-500 to-purple-600 hover:from-purple-600 hover:to-indigo-500 text-white font-semibold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 minimal-glow;
   }
 
   .feature-card-minimal {
     @apply glass-card rounded-2xl p-8 transition-all duration-500 hover:scale-105 hover:bg-white/5;
+    border: 2px solid transparent;
+    background-image: linear-gradient(135deg, #fff 0%, #ffb6e9 40%, #aeefff 100%);
+    background-origin: border-box;
+    box-shadow: 0 0 24px 0 rgba(255, 110, 196, 0.25);
+    position: relative;
+    z-index: 1;
   }
 
   .floating-animation {

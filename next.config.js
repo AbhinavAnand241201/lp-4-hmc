@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
+  // You can leave this empty or add other config options here
 }
 
-module.exports = nextConfig 
+module.exports = nextConfig;
