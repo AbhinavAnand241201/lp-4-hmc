@@ -8,19 +8,19 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // Green MZS wallet color palette
-        'bg-primary': '#f0f9f0',
-        'bg-secondary': '#e8f5e8',
-        'bg-card': '#d4edda',
-        'text-primary': '#1a472a',
-        'text-secondary': '#2d5a3d',
-        'text-muted': '#6b7c93',
-        'accent-primary': '#28a745', // main green
-        'accent-secondary': '#e8f5e8', // light green
-        'accent-tertiary': '#d4edda', // lighter green
-        'green-main': '#28a745', // main green
-        'green-dark': '#1e7e34', // dark green
-        'green-light': '#d4edda', // lightest green
+        // HMC Wallet dark purple/indigo color palette
+        'bg-primary': '#0f0f23',
+        'bg-secondary': '#1a1a2e',
+        'bg-card': '#16213e',
+        'text-primary': '#ffffff',
+        'text-secondary': '#a8a8a8',
+        'text-muted': '#6b7280',
+        'accent-primary': '#6366f1', // indigo
+        'accent-secondary': '#8b5cf6', // purple
+        'accent-tertiary': '#a855f7', // purple
+        'purple-main': '#6366f1', // main indigo
+        'purple-dark': '#4f46e5', // dark indigo
+        'purple-light': '#8b5cf6', // light purple
         'white-main': '#ffffff',
       },
       fontFamily: {
