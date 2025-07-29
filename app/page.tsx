@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 export default function Home() {
   const handleDownload = () => {
-    window.open('https://drive.google.com/file/d/1hXq0SBbrszwGNb-3ILxOS5JvrDT3Fdj3/view?usp=sharing', '_blank')
+    window.open('https://drive.google.com/file/d/1cjW1Ks_QeKeQvS201jbojT2hGXYSo_cP/view?usp=sharing', '_blank')
   }
 
   return (
