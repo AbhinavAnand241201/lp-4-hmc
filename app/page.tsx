@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 export default function Home() {
   const handleDownload = () => {
-    alert('APK 다운로드가 시작됩니다...')
+    window.open('https://drive.google.com/file/d/1hXq0SBbrszwGNb-3ILxOS5JvrDT3Fdj3/view?usp=sharing', '_blank')
   }
 
   return (
